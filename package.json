@@ -1,0 +1,26 @@
+{
+    "name": "vYv-color-theme",
+    "displayName": "vYv-color-theme",
+    "description": "vYv color theme",
+    "version": "0.0.1",
+    "publisher": "vYv",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vyscoz/vYv-color-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vYv Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vYv Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
